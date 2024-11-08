@@ -39,7 +39,7 @@
 		<div id="platform" class="tabcontent mt-4">
 			<div class="content-container">
 				<div id="radar" class="radar">
-					<!-- Initial content will be inserted here -->
+					<h1>Awaited</h1>
 				</div>
 			</div>
 		</div>

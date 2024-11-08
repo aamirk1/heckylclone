@@ -32,7 +32,6 @@ window.onload = function() {
     ];
 
     // Base URL (for your image paths)
-    const baseUrl = "http://localhost/heckylclone/";
 
     // Set the initial content
     let currentContentIndex = 0;
@@ -99,78 +98,132 @@ window.onload = function() {
     setInterval(changeRadar, 4500);
 
 
-     // Third Function: find Content Change
-     const findDiv = document.getElementById("find");
+     // first Function: find Content Change
+      const findDiv = document.getElementById("find");
 
      // Array of find with HTML snippets instead of just image paths
+
+     // Array of content (image names only)
      const findArray = [
-         { title: "PCROITime", find: "<div><h3>PCROITime Info</h3><p>This is custom HTML find for PCROITime.</p></div>" },
-         { title: "Open Interest Build up", find: "<div><h3>Open Interest Build Up</h3><p>This is custom find about Open Interest.</p><img src='assets/images/city.jpg' alt='City'></div>" },
-         { title: "OI Change", find: "<div><h3>OI Change Info</h3><p>This is a description of OI Change.</p><img src='assets/images/ocean.jpg' alt='Ocean'></div>" },
-         { title: "FII Vs Index Trends", find: "<div><h3>FII Vs Index Trends</h3><p>This is custom find about FII and Index trends.</p><img src='assets/images/desert.jpg' alt='Desert'></div>" },
-         { title: "Multi Strike OI", find: "<div><h3>Multi Strike OI</h3><p>This find is about Multi Strike Open Interest.</p><img src='assets/images/desert.jpg' alt='Desert'></div>" }
+         { title: "Overview", images: "product/fno/fno.jpeg" },
+         { title: "Health Score", images: "city.jpg" },
+         { title: "Peer comparison on health score", images: "ocean.jpg" },
+         { title: "Balance sheet data for more than 10 years", images: "desert.jpg" },
+         { title: "Cash flow", images: "desert.jpg" },
+         { title: "Important Financial Ratios", images:"product/find/image.png" },
+         { title: "P&L Snapshot", images:"product/find/image.png" },
+         { title: "Various Technical parameters for a given period", images:"product/find/image.png" },
+         { title: "Option Chain", images:"product/find/image.png" },
+         { title: "Technical screeners", images:"product/find/image.png" },
+         { title: "Other technical screeners", images:"product/find/image.png" },
      ];
  
-     // Set the initial find content
-     let currentfindIndex = 0;
-     findDiv.innerHTML = `<h2>${findArray[currentfindIndex].title}</h2>${findArray[currentfindIndex].find}`;
+     // Base URL (for your image paths)
  
-     // Function to change find content
+     // Set the initial find
+     let currentfindIndex = 0;
+     const findImageUrls = baseUrl + "assets/images/" + findArray[currentfindIndex].images;
+     findDiv.innerHTML = `<h2>${findArray[currentfindIndex].title}</h2><img src="${findImageUrls}" alt="${findArray[currentfindIndex].title}">`;
+ 
+     // Function to change find
      function changefind() {
-         // Fade out current find content
+         // Fade out current find
          findDiv.style.opacity = 0;
  
          // After the fade-out completes (1 second), change the find
          setTimeout(() => {
              currentfindIndex = (currentfindIndex + 1) % findArray.length; // Loop through find array
  
-             // Update find content
-             findDiv.innerHTML = `<h2>${findArray[currentfindIndex].title}</h2>${findArray[currentfindIndex].find}`;
+             // Construct the image URL dynamically with PHP base URL and JS image name
+             const findImageUrls = baseUrl + "assets/images/" + findArray[currentfindIndex].images;
  
-             // Fade in new find content
+             // Update find with the new title and image
+             findDiv.innerHTML = `<h2>${findArray[currentfindIndex].title}</h2><img src="${findImageUrls}" alt="${findArray[currentfindIndex].title}">`;
+ 
+             // Fade in new find
              findDiv.style.opacity = 1;
          }, 1000); // Fade duration (1 second)
      }
  
-     // Change find content every 3 seconds (3000 ms)
+     // Change find every 3 seconds (3000 ms)
      setInterval(changefind, 3000);
 
 
 
      
-     // Four Function: tfa Content Change
+     // Four Function: find Content Change
      const tfaDiv = document.getElementById("tfa");
 
      // Array of tfa with HTML snippets instead of just image paths
+
+     // Array of content (image names only)
      const tfaArray = [
-         { title: "PCROITime", tfa: "<div><h3>PCROITime Info</h3><p>This is custom HTML tfa for PCROITime.</p></div>" },
-         { title: "Open Interest Build up", tfa: "<div><h3>Open Interest Build Up</h3><p>This is custom tfa about Open Interest.</p><img src='assets/images/city.jpg' alt='City'></div>" },
-         { title: "OI Change", tfa: "<div><h3>OI Change Info</h3><p>This is a description of OI Change.</p><img src='assets/images/ocean.jpg' alt='Ocean'></div>" },
-         { title: "FII Vs Index Trends", tfa: "<div><h3>FII Vs Index Trends</h3><p>This is custom tfa about FII and Index trends.</p><img src='assets/images/desert.jpg' alt='Desert'></div>" },
-         { title: "Multi Strike OI", tfa: "<div><h3>Multi Strike OI</h3><p>This tfa is about Multi Strike Open Interest.</p><img src='assets/images/desert.jpg' alt='Desert'></div>" }
+         { title: "Overview", images: "product/fno/fno.jpeg" },
+         { title: "Health Score", images: "city.jpg" },
+         { title: "Peer comparison on health score", images: "ocean.jpg" },
+         { title: "Balance sheet data for more than 10 years", images: "desert.jpg" },
+         { title: "Cash flow", images: "desert.jpg" },
+         { title: "Important Financial Ratios", images:"product/tfa/image.png" },
+         { title: "P&L Snapshot", images:"product/tfa/image.png" },
+         { title: "Various Technical parameters for a given period", images:"product/tfa/image.png" },
+         { title: "Option Chain", images:"product/tfa/image.png" },
+         { title: "Technical screeners", images:"product/tfa/image.png" },
+         { title: "Other technical screeners", images:"product/tfa/image.png" },
      ];
  
-     // Set the initial tfa content
-     let currenttfaIndex = 0;
-     tfaDiv.innerHTML = `<h2>${tfaArray[currenttfaIndex].title}</h2>${tfaArray[currenttfaIndex].tfa}`;
+     // Base URL (for your image paths)
  
-     // Function to change tfa content
+     // Set the initial tfa
+     let currenttfaIndex = 0;
+     const imageUrls = baseUrl + "assets/images/" + tfaArray[currenttfaIndex].images;
+     tfaDiv.innerHTML = `<h2>${tfaArray[currenttfaIndex].title}</h2><img src="${imageUrls}" alt="${tfaArray[currenttfaIndex].title}">`;
+ 
+     // Function to change tfa
      function changetfa() {
-         // Fade out current tfa content
+         // Fade out current tfa
          tfaDiv.style.opacity = 0;
  
          // After the fade-out completes (1 second), change the tfa
          setTimeout(() => {
              currenttfaIndex = (currenttfaIndex + 1) % tfaArray.length; // Loop through tfa array
  
-             // Update tfa content
-             tfaDiv.innerHTML = `<h2>${tfaArray[currenttfaIndex].title}</h2>${tfaArray[currenttfaIndex].tfa}`;
+             // Construct the image URL dynamically with PHP base URL and JS image name
+             const imageUrls = baseUrl + "assets/images/" + tfaArray[currenttfaIndex].images;
  
-             // Fade in new tfa content
+             // Update tfa with the new title and image
+             tfaDiv.innerHTML = `<h2>${tfaArray[currenttfaIndex].title}</h2><img src="${imageUrls}" alt="${tfaArray[currenttfaIndex].title}">`;
+ 
+             // Fade in new tfa
              tfaDiv.style.opacity = 1;
          }, 1000); // Fade duration (1 second)
      }
  
-     // Change tfa content every 3 seconds (3000 ms)
+     // Change tfa every 3 seconds (3000 ms)
      setInterval(changetfa, 3000);
+
+
+// about us js code start
+
+// our mantra
+
+    // Single content object with title and image
+const mantraDiv = document.getElementById("mantra");
+const mantraContent = { title: '"Heckyl aims to be a global leader in the space of information analytics for worldwide financial markets. We strive to raise the bar with everything that we offer and shall continue to do so till hell freezes over."', image: "" };
+
+// Base URL (for your image path)// replace with your actual base URL
+
+// Set the initial content
+// const imageUrls = baseUrl + "assets/images/" + tfaContent.image;
+mantraDiv.innerHTML = `<h1 style="color: white;text-align: justify; letter-spacing: 2px;">${mantraContent.title}</h1>`;
+
+
+
+
+// about us js code end
+
+
+
+
+
+
 };

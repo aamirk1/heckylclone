@@ -1,6 +1,6 @@
 <div id="divCompany" class="section s3 companyMantra">
 <div class="container">
-		<p class="text-dark fs-1 text-uppercase text-center m-4 ">
+		<p class="fs-1 text-uppercase text-center m-4 "style="color: white;">
 			about us
 		</p>
 		<div class="tab" style="
@@ -18,17 +18,134 @@
 		</div>
 
 		<div id="team" class="tabcontent mt-4">
-			<h3>Paris</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, minus reprehenderit illo quibusdam molestias distinctio laborum repudiandae amet consequuntur, odit incidunt, natus ut autem hic eos corrupti eum saepe labore.
-            Error laborum consequuntur tempore aut illum dolores, et sunt eveniet nobis reiciendis ea distinctio id obcaecati exercitationem? Excepturi, reiciendis enim impedit possimus esse eius quae similique eligendi molestias eveniet animi?
-            Vel ipsa alias enim. Facere id quo ea dolorem amet distinctio expedita ipsam sapiente quasi debitis sequi accusamus itaque similique optio iure deserunt maxime, esse quis possimus officia incidunt! Harum!
-            At error, consequatur enim numquam sit asperiores veritatis iure pariatur maxime sapiente, hic in earum officiis minima quasi odio ipsum nemo tenetur. Eaque praesentium dolorum molestiae ullam aspernatur, facere voluptatibus?
-            Consectetur numquam non asperiores ab. Eius enim delectus dolorem labore provident fugit nobis consequuntur porro iusto. Laborum quibusdam, itaque sequi accusamus quod excepturi officia ut nobis non temporibus sint aut.</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Team Member 1 -->
+        <div class="col">
+            <div class="card">
+                <img src="team/john.jpg" class="card-img-top" alt="Abhijit">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Abhijit</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col">
+            <div class="card">
+                <img src="team/jane.jpg" class="card-img-top" alt="Ajay">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Ajay</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col">
+            <div class="card">
+                <img src="team/robert.jpg" class="card-img-top" alt="Yash">
+                <div class="card-body">
+                    <h5 class="card-title text-center ">Yash</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="col">
+            <div class="card">
+                <img src="team/emily.jpg" class="card-img-top" alt="Pankanj">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Pankanj</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 		</div>
 
 		<div id="career" class="tabcontent mt-4">
-			<h3>Tokyo</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aut et expedita, assumenda maiores temporibus deserunt? Error hic cum aliquid temporibus veniam veritatis voluptas assumenda! Natus aliquam facilis eveniet ipsam.</p>
+        <div class="heckyl"style="color: white;">
+                <br>
+                <div style="font-size: 24px;font-weight: 400;">What it takes to get into Heckyl</div>
+
+                <div class="we">
+                    You should be creative, extremely energetic, and ready to hit the ground running.You
+                    should be ready to thrive in fast-paced environments, work well in a team but also
+                    be a leader and an instigator. We love new ideas and fresh perspectives. Heckyl is all about innovation, you should
+                    be too.
+                </div>
+            </div>
+
+            <div class="decoration">
+                <div style="text-align: center;margin-top: 15px;">
+                    <div style="font-size: 22px;">
+                        Heckyl is not all about work though, we also have...
+                    </div>
+                </div>
+                <div style="text-align: center;margin-top: 10px;">
+
+                    <div class="photos">
+                        <ul>
+                            <li>
+                                <img src="<?php echo $base_url;?>assets/images/drinks.png" alt="drinks">
+                                <p>beverages</p>
+                            </li>
+                            <li>
+                                <img src="<?php echo $base_url;?>assets/images/snacks.png" alt="drinks">
+                                <p>snacks</p>
+                            </li>
+                            <li>
+                                <img src="<?php echo $base_url;?>assets/images/game.png" alt="drinks">
+                                <p>gaming</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="positions"style="
+    color: white;
+    background-color: #ffffff00;
+">
+                <div style="font-size: 24px; font-weight: 400;">
+                    Open positions in Mumbai
+                </div>
+                <div class="jobs">
+                    <span class="emphasis">Web Engineer</span>
+                    <div>
+                        Are you a Web Engineer who's looking to join a company whose DNA is innovation and
+                        believes you can make a difference? Have you faced big challenges in building beautiful,
+                        easy-to-use, highly scaleable web applications that services hundreds of thousands
+                        of users. If so, we think we've got the opportunity you're looking for.
+                    </div>
+                    <br>
+                    <span class="emphasis">Expertise in areas</span>
+                    <ul>
+                        <li class="lisquare">C#</li>
+                        <li class="lisquare">ASP.NET MVC</li>
+                        <li class="lisquare">WCF</li>
+                        <li class="lisquare">LINQ</li>
+                        <li class="lisquare">HTML5</li>
+                        <li class="lisquare">jQuery Scripting</li>
+                    </ul>
+                    <br>
+                    <span class="emphasis">Experience</span>
+                    <ul>
+                        <li class="lisquare">2+ years and above in Microsoft Dot Net Technologies</li>
+                    </ul>
+                    <br>
+                    <span>Email us: <a href="mailto:careers@heckyl.com">careers@heckyl.com</a></span>
+                </div>
+            </div>
+            <div class="anyways"style="color: white;">
+                <br>
+                <div style="font-size: 24px; font-weight: 400;">Want to join us anyway?</div>
+                <h4>
+                    Tell us why Heckyl can't live without you!
+                </h4>
+                <p>
+                    <a href="mailto:careers@heckyl.com">careers@heckyl.com</a>
+                </p>
+            </div>
 		</div>
 		
 	</div>

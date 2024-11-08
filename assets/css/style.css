@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;  /* Horizontally centers the buttons */
     align-items: center;      /* Vertically centers the buttons (if needed) */
-    gap: 5rem;                /* Optional: adds space between the buttons */
+    gap: 3rem;                /* Optional: adds space between the buttons */
     flex-wrap: wrap;          /* Allows buttons to wrap if there's not enough space */
   }
   
