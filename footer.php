@@ -1,3 +1,27 @@
+
+
+<script>
+
+function switchSection(evt, sectionName) {
+    var i, sectionContent, tabLinks;
+    sectionContent = document.getElementsByClassName("section-content");
+    for (i = 0; i < sectionContent.length; i++) {
+      sectionContent[i].style.display = "none"; // Hide all sections
+    }
+    tabLinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tabLinks.length; i++) {
+      tabLinks[i].className = tabLinks[i].className.replace(" active", ""); // Remove active class from all tabs
+    }
+    document.getElementById(sectionName).style.display = "block"; // Show selected section
+    evt.currentTarget.className += " active"; // Mark clicked tab as active
+  }
+  
+  // Automatically click the tab with id="defaultTab" when the page loads
+  document.getElementById("defaultOpen").click();
+  document.getElementById("defaultTab").click();
+</script>
+
+
 <script>
 		(function (i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {

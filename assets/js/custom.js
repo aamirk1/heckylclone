@@ -14,7 +14,8 @@ const baseUrl = "http://localhost/heckylclone/";
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-
+//   document.getElementById("defaultOpen").click();
+  // New function to switch between sections
 
 //   fno tab data
 
@@ -207,7 +208,7 @@ window.onload = function() {
 // our mantra
 
     // Single content object with title and image
-const mantraDiv = document.getElementById("mantra");
+const mantraDiv = document.getElementById("OurMantra");
 const mantraContent = { title: '"Heckyl aims to be a global leader in the space of information analytics for worldwide financial markets. We strive to raise the bar with everything that we offer and shall continue to do so till hell freezes over."', image: "" };
 
 // Base URL (for your image path)// replace with your actual base URL

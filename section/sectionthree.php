@@ -1,75 +1,91 @@
 <div id="divCompany" class="section s3 companyMantra">
-<div class="container">
-		<p class="fs-1 text-uppercase text-center m-4 "style="color: white;">
-			about us
-		</p>
-		<div class="tab" style="
-    border: 1px solid #ffffff00;
-    background-color: #00000000;
-">
-			<button class="tablinks" onclick="openCity(event, 'mantra')" id="defaultOpen">OUR MANTRA</button>
-			<button class="tablinks" onclick="openCity(event, 'team')">TEAM</button>
-			<button class="tablinks" onclick="openCity(event, 'career')">JOIN OUR TEAM</button>
-		</div>
-		<!-- Tab content -->
-		<div id="mantra" class="tabcontent mt-4">
-			<h3>London</h3>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam tempora amet at enim id modi veritatis ad esse obcaecati, minima facere possimus deleniti quia sit cumque dolorem dolor, earum sunt.</p>
-		</div>
+    <div class="container">
+        <p class="fs-1 text-uppercase text-center m-4 " style="color: white;">
+            about us
+        </p>
+        <!-- <div class="tab" style="border: 1px solid #ffffff00;background-color: #00000000;">
+            <button class="tablinks" onclick="openCity(event, 'mantra')" id="defaultOpen">OUR MANTRA</button>
+            <button class="tablinks" onclick="openCity(event, 'team')">TEAM</button>
+            <button class="tablinks" onclick="openCity(event, 'career')">JOIN OUR TEAM</button>
+        </div> -->
+        <!-- Tab content -->
+        <!-- <div id="mantra" class="tabcontent mt-4">
+            <h3>London</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam tempora amet at enim id modi veritatis ad esse obcaecati, minima facere possimus deleniti quia sit cumque dolorem dolor, earum sunt.</p>
+        </div> -->
 
-		<div id="team" class="tabcontent mt-4">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <!-- Team Member 1 -->
-        <div class="col">
-            <div class="card">
-                <img src="team/john.jpg" class="card-img-top" alt="Abhijit">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Abhijit</h5>
+        <!-- <div id="team" class="tabcontent mt-4">
+        
+        </div> -->
+
+
+        <div class="section-tabs" style="border: 1px solid #ffffff00;background-color: #00000000;">
+            <button class="tab-links" onclick="switchSection(event, 'OurMantra')" id="defaultTab">OUR MANTRA</button>
+            <button class="tab-links" onclick="switchSection(event, 'Team')">TEAM</button>
+            <button class="tab-links" onclick="switchSection(event, 'JoinOurTeam')">JOIN OUR TEAM</button>
+        </div>
+
+        <!-- Tab Content for Our Mantra -->
+        <div id="OurMantra" class="section-content mt-4">
+
+        </div>
+
+        <!-- Tab Content for Team -->
+        <div id="Team" class="section-content mt-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!-- Team Member 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="team/john.jpg" class="card-img-top" alt="Abhijit">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Abhijit</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="team/jane.jpg" class="card-img-top" alt="Ajay">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ajay</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="team/robert.jpg" class="card-img-top" alt="Yash">
+                        <div class="card-body">
+                            <h5 class="card-title text-center ">Yash</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="team/emily.jpg" class="card-img-top" alt="Pankanj">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Pankanj</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Team Member 2 -->
-        <div class="col">
-            <div class="card">
-                <img src="team/jane.jpg" class="card-img-top" alt="Ajay">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Ajay</h5>
-                </div>
-            </div>
-        </div>
-
-        <!-- Team Member 3 -->
-        <div class="col">
-            <div class="card">
-                <img src="team/robert.jpg" class="card-img-top" alt="Yash">
-                <div class="card-body">
-                    <h5 class="card-title text-center ">Yash</h5>
-                </div>
-            </div>
-        </div>
-
-        <!-- Team Member 4 -->
-        <div class="col">
-            <div class="card">
-                <img src="team/emily.jpg" class="card-img-top" alt="Pankanj">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Pankanj</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-		</div>
-
-		<div id="career" class="tabcontent mt-4">
-        <div class="heckyl"style="color: white;">
+        <!-- Tab Content for Join Our Team -->
+        <div id="JoinOurTeam" class="section-content mt-4">
+        <div class="heckyl" style="color: white;">
                 <br>
                 <div style="font-size: 24px;font-weight: 400;">What it takes to get into Heckyl</div>
 
                 <div class="we">
                     You should be creative, extremely energetic, and ready to hit the ground running.You
                     should be ready to thrive in fast-paced environments, work well in a team but also
-                    be a leader and an instigator. We love new ideas and fresh perspectives. Heckyl is all about innovation, you should
+                    be a leader and an instigator. We love new ideas and fresh perspectives. Heckyl is all about
+                    innovation, you should
                     be too.
                 </div>
             </div>
@@ -85,15 +101,15 @@
                     <div class="photos">
                         <ul>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/drinks.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/drinks.png" alt="drinks">
                                 <p>beverages</p>
                             </li>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/snacks.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/snacks.png" alt="drinks">
                                 <p>snacks</p>
                             </li>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/game.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/game.png" alt="drinks">
                                 <p>gaming</p>
                             </li>
                         </ul>
@@ -102,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="positions"style="
+            <div class="positions" style="
     color: white;
     background-color: #ffffff00;
 ">
@@ -136,7 +152,7 @@
                     <span>Email us: <a href="mailto:careers@heckyl.com">careers@heckyl.com</a></span>
                 </div>
             </div>
-            <div class="anyways"style="color: white;">
+            <div class="anyways" style="color: white;">
                 <br>
                 <div style="font-size: 24px; font-weight: 400;">Want to join us anyway?</div>
                 <h4>
@@ -146,11 +162,17 @@
                     <a href="mailto:careers@heckyl.com">careers@heckyl.com</a>
                 </p>
             </div>
-		</div>
-		
-	</div>
+        </div>
 
-    
+
+
+
+
+
+
+    </div>
+
+
     <!-- <div class="inner" style="">
 
         <div style="height: 500px; width: 130px; float: left;">
@@ -195,49 +217,49 @@
         <div id="team" style="margin-left: 130px; margin-top: 20px; position: relative; display: none;">
             <div style="width: 60%; float: left;">
                 <div id="teamcontainer" style="margin-left: 10px;">
-				
+                
                     <div class="thumb scroll">
                         <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/ss_0.png" alt="">
+                            <img src="<?php echo $base_url; ?>assets/images/ss_0.png" alt="">
                         </div>
                     </div>
-					
+                    
                     <div class="thumb scroll">
                         <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/mm_0.png" alt="">
-                        </div>
-                    </div>
-                    <div class="thumb scroll">
-                        <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/av_0.png" alt="">
-                        </div>
-                    </div>
-					
-                    <div class="thumb scroll">
-                        <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/jm_0.png" alt="">
-                        </div>
-                    </div>
-					
-                    <div class="thumb scroll">
-                        <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/am_0.png" alt="">
+                            <img src="<?php echo $base_url; ?>assets/images/mm_0.png" alt="">
                         </div>
                     </div>
                     <div class="thumb scroll">
                         <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/ash_0.png" alt="">
+                            <img src="<?php echo $base_url; ?>assets/images/av_0.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="thumb scroll">
+                        <div class="thumb-wrapper">
+                            <img src="<?php echo $base_url; ?>assets/images/jm_0.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="thumb scroll">
+                        <div class="thumb-wrapper">
+                            <img src="<?php echo $base_url; ?>assets/images/am_0.png" alt="">
+                        </div>
+                    </div>
+                    <div class="thumb scroll">
+                        <div class="thumb-wrapper">
+                            <img src="<?php echo $base_url; ?>assets/images/ash_0.png" alt="">
                         </div>
                     </div>
                    
                     <div class="thumb scroll">
                         <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/ms_0.png" alt="">
+                            <img src="<?php echo $base_url; ?>assets/images/ms_0.png" alt="">
                         </div>
                     </div>
                     <div class="thumb scroll">
                         <div class="thumb-wrapper">
-                            <img src="<?php echo $base_url;?>assets/images/yn_0.png" alt="">
+                            <img src="<?php echo $base_url; ?>assets/images/yn_0.png" alt="">
                         </div>
                     </div>
                    
@@ -307,15 +329,15 @@
                     <div class="photos">
                         <ul>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/drinks.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/drinks.png" alt="drinks">
                                 <p>beverages</p>
                             </li>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/snacks.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/snacks.png" alt="drinks">
                                 <p>snacks</p>
                             </li>
                             <li>
-                                <img src="<?php echo $base_url;?>assets/images/game.png" alt="drinks">
+                                <img src="<?php echo $base_url; ?>assets/images/game.png" alt="drinks">
                                 <p>gaming</p>
                             </li>
                         </ul>
@@ -373,40 +395,40 @@
                     Our Success Story
                 </div>
                 <div style="margin-top: 20px; border-bottom: .1em dotted silver;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_1.png" style="height:100px;" alt="">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_1.png" style="height:100px;" alt="">
                     <p class="graycolor" style="margin-top:0px;">
                         <span style="color: #0279C4;"><b>2011</b></span> Techspark winner conducted by
                         Yourstory.in, CNBC TV 18, Google, Amazon
                     </p>
                 </div>
                 <div style="margin-top: 20px; border-bottom: .1em dotted silver;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_2.png" alt="">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_2.png" alt="">
                     <p class="graycolor">
                         Nasscom 50 Emerge <span style="color: #0279C4;"><b>2012</b></span> (Innovation Category)
                     </p>
                 </div>
                 <div style="margin-top: 20px;  border-bottom: .1em dotted silver;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_3.png" alt="">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_3.png" alt="">
                     <p class="graycolor">
                         In <span style="color: #0279C4;"><b>2013</b></span>, UKTI and British Airways Selects
                         Heckyl as the most Innovative Company from India.
                     </p>
                 </div>
                 <div style="margin-top: 20px;border-bottom: .1em dotted silver;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_4.png" alt="">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_4.png" alt="">
                     <p class="graycolor" style="margin-top:0px;">
                         Heckyl Technologies - Selected as a <span style="color: #0279C4;"><b>2014</b></span> Red Herring Top 100 Asia.
                     </p>
                 </div>
                 <div style="margin-top: 20px;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_5.png" alt="">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_5.png" alt="">
                     <p class="graycolor" style="margin-top:0px;">
                         Heckyl announced as a winner in the <span style="color: #0279C4;"><b>2014</b></span> Red Herring Top 100 Global.
                     </p>
                 </div>
 
                 <div style="margin-top: 20px;">
-                    <img src="<?php echo $base_url;?>assets/images/Company_Accolades_6.png" alt="" style="width:50%;margin-left:-18px">
+                    <img src="<?php echo $base_url; ?>assets/images/Company_Accolades_6.png" alt="" style="width:50%;margin-left:-18px">
                     <p class="graycolor" style="margin-top:0px;">
                         Heckyl wins Government of Ontario's Next Big Idea <span style="color: #0279C4;"><b>2016</b></span> Contest.
                     </p>
