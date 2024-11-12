@@ -7,7 +7,14 @@
 		<a href="#" id="s3" class="subNavBtn">ABOUT US</a>
 		<a href="#" id="s4" class="subNavBtn">CLIENTS</a>
 		<a href="#" id="s6" class="subNavBtn">BLOG</a>
-		<a href="#" id="s5" class="subNavBtn ">CONTACT US</a>
+		<a href="#" id="s5" class="subNavBtn "style="
+    background-color: #3b89c3;
+    padding: 10px;
+    color: white;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 5px;
+">CONTACT US</a>
 		
 	</div>
 </div>
