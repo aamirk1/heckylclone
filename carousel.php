@@ -25,26 +25,40 @@
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 
 			<div class="item active">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/img1.jpeg" alt="Los Angeles"
+				<img src="<?php echo $base_url; ?>assets/images/carousel/img1.jpg" alt="main"
 					style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/img2.jpeg" alt="Chicago" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/find.jpg" alt="find" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/img3.jpeg" alt="New York" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/fno.jpg" alt="fno" style="width:100%;">
+				<div class="carousel-caption">
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/radar.jpg" alt="radar" style="width:100%;">
+				<div class="carousel-caption">
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/tfa.jpg" alt="tfa" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>

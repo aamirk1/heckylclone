@@ -1,4 +1,4 @@
-<div class="section s1">
+<div class="section s1" id="s1">
 
 	<div class="container">
 		<p class="text-dark fs-1 text-uppercase text-center m-4 ">

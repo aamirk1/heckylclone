@@ -25,8 +25,8 @@ window.onload = function() {
 
     // Array of content (image names only)
     const contentArray = [
-        { title: "PCROITime", image: "product/fno/fno.jpeg" },
-        { title: "Open Interest Build up", image: "city.jpg" },
+        { title: "PCROITime", image: "product/fno/PCROITIME.jpg" },
+        { title: "Open Interest Build up", image: "product/fno/green1.jpg" },
         { title: "OI Change", image: "ocean.jpg" },
         { title: "FII Vs Index Trends", image: "desert.jpg" },
         { title: "Multi Strike OI", image: "desert.jpg" }
