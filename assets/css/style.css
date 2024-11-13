@@ -142,3 +142,7 @@
   /* border: 1px solid #ccc; */
   border-top: none;
 }
+
+#find img {
+  width: 100%;
+}

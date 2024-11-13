@@ -25,11 +25,12 @@ window.onload = function() {
 
     // Array of content (image names only)
     const contentArray = [
+        { title: "", image: "product/fno/1.jpg" },
         { title: "PCROITime", image: "product/fno/PCROITIME.jpg" },
-        { title: "Open Interest Build up", image: "product/fno/green1.jpg" },
-        { title: "OI Change", image: "ocean.jpg" },
-        { title: "FII Vs Index Trends", image: "desert.jpg" },
-        { title: "Multi Strike OI", image: "desert.jpg" }
+        { title: "Open Interest Build up", image: "product/fno/2.jpg" },
+        { title: "OI Change", image: "product/fno/3.jpg" },
+        { title: "FII Vs Index Trends", image: "product/fno/4.jpg" },
+        { title: "Multi Strike OI", image: "product/fno/5.jpg" }
     ];
 
     // Base URL (for your image paths)
@@ -106,17 +107,18 @@ window.onload = function() {
 
      // Array of content (image names only)
      const findArray = [
-         { title: "Overview", images: "product/fno/fno.jpeg" },
-         { title: "Health Score", images: "city.jpg" },
-         { title: "Peer comparison on health score", images: "ocean.jpg" },
-         { title: "Balance sheet data for more than 10 years", images: "desert.jpg" },
-         { title: "Cash flow", images: "desert.jpg" },
-         { title: "Important Financial Ratios", images:"product/find/image.png" },
-         { title: "P&L Snapshot", images:"product/find/image.png" },
-         { title: "Various Technical parameters for a given period", images:"product/find/image.png" },
-         { title: "Option Chain", images:"product/find/image.png" },
-         { title: "Technical screeners", images:"product/find/image.png" },
-         { title: "Other technical screeners", images:"product/find/image.png" },
+         { title: "", images: "product/find/1.jpg" },
+         { title: "", images: "product/find/2.jpg" },
+         { title: "", images: "product/find/3.jpg" },
+         { title: "", images: "product/find/4.jpg" },
+         { title: "", images: "product/find/5.jpg" },
+         { title: "", images: "product/find/6.jpg" },
+         { title: "", images: "product/find/7.jpg" },
+         { title: "", images: "product/find/8.jpg" },
+         { title: "", images: "product/find/9.jpg" },
+         { title: "", images: "roduct/tfind10.jpg" },
+         { title: "", images: "roduct/tfind11.jpg" },
+         { title: "", images: "roduct/tfind12.jpg" },
      ];
  
      // Base URL (for your image paths)
@@ -147,7 +149,7 @@ window.onload = function() {
      }
  
      // Change find every 3 seconds (3000 ms)
-     setInterval(changefind, 3000);
+     setInterval(changefind, 300000);
 
 
 
@@ -159,17 +161,17 @@ window.onload = function() {
 
      // Array of content (image names only)
      const tfaArray = [
-         { title: "Overview", images: "product/fno/fno.jpeg" },
-         { title: "Health Score", images: "city.jpg" },
-         { title: "Peer comparison on health score", images: "ocean.jpg" },
-         { title: "Balance sheet data for more than 10 years", images: "desert.jpg" },
-         { title: "Cash flow", images: "desert.jpg" },
-         { title: "Important Financial Ratios", images:"product/tfa/image.png" },
-         { title: "P&L Snapshot", images:"product/tfa/image.png" },
-         { title: "Various Technical parameters for a given period", images:"product/tfa/image.png" },
-         { title: "Option Chain", images:"product/tfa/image.png" },
-         { title: "Technical screeners", images:"product/tfa/image.png" },
-         { title: "Other technical screeners", images:"product/tfa/image.png" },
+         { title: "Overview", images: "product/tfa/1.jpg" },
+         { title: "Health Score", images: "product/tfa/3.jpg" },
+         { title: "Peer comparison on health score", images: "product/tfa/4.jpg" },
+         { title: "Balance sheet data for more than 10 years", images: "product/tfa/5.jpg" },
+         { title: "Cash flow", images: "product/tfa/6.jpg" },
+         { title: "Important Financial Ratios", images:"product/tfa/7.jpg" },
+         { title: "P&L Snapshot", images:"product/tfa/8.jpg" },
+         { title: "Various Technical parameters for a given period", images:"product/tfa/9.jpg" },
+         { title: "Option Chain", images:"product/tfa/10.jpg" },
+         { title: "Technical screeners", images:"product/tfa/11.jpg" },
+         { title: "Other technical screeners", images:"product/tfa/12.jpg" },
      ];
  
      // Base URL (for your image paths)
