@@ -119,6 +119,7 @@
   float: left;
   border: none;
   outline: none;
+  color: #1b00ff;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
@@ -132,7 +133,8 @@
 
 /* Create an active/current tablink class */
 .section-tabs button.active {
-  background-color: #ccc;
+  background-color: #000000;
+  color: white !important;
 }
 
 /* Style the tab content */
@@ -145,4 +147,7 @@
 
 #find img {
   width: 100%;
+}
+#find ,#tfa, #radar {
+  transition: opacity 1s ease-in-out;
 }

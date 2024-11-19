@@ -12,3 +12,8 @@ print('total: ',c+f)
 total = c + f
 
 print(50000 - total)
+
+
+a = [2,3,4,5,6,7]
+b = a.reverse()
+print(b)

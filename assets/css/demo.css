@@ -796,13 +796,13 @@ width20pc
 	color:#3d3d3d;
 	min-height:95%;
 	
-	background: url(../images/Company_Bg_image.png);
+	background: url(../images/30.jpg);
 	webkit-background-size: cover;
 	moz-background-size: cover;
 	o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/Company_Bg_image.png',     sizingMethod='scale');
-	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/Company_Bg_image.png', sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/30.jpg',     sizingMethod='scale');
+	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/30.jpg', sizingMethod='scale');
 	
 }
 

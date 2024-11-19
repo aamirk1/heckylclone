@@ -1,23 +1,9 @@
 <div id="divCompany" class="section s3 companyMantra">
     <div class="container">
-        <p class="fs-1 text-uppercase text-center m-4 " style="color: white;">
+        <p class="fs-1 text-uppercase text-center m-4 " style="color: #000000;">
             about us
         </p>
-        <!-- <div class="tab" style="border: 1px solid #ffffff00;background-color: #00000000;">
-            <button class="tablinks" onclick="openCity(event, 'mantra')" id="defaultOpen">OUR MANTRA</button>
-            <button class="tablinks" onclick="openCity(event, 'team')">TEAM</button>
-            <button class="tablinks" onclick="openCity(event, 'career')">JOIN OUR TEAM</button>
-        </div> -->
-        <!-- Tab content -->
-        <!-- <div id="mantra" class="tabcontent mt-4">
-            <h3>London</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam tempora amet at enim id modi veritatis ad esse obcaecati, minima facere possimus deleniti quia sit cumque dolorem dolor, earum sunt.</p>
-        </div> -->
-
-        <!-- <div id="team" class="tabcontent mt-4">
         
-        </div> -->
-
 
         <div class="section-tabs" style="border: 1px solid #ffffff00;background-color: #00000000;">
             <button class="tab-links" onclick="switchSection(event, 'OurMantra')" id="defaultTab">OUR MANTRA</button>
@@ -46,7 +32,7 @@
                 <!-- Team Member 2 -->
                 <div class="col">
                     <div class="card">
-                        <img src="team/jane.jpg" class="card-img-top" alt="Ajay">
+                        <img src="<?php echo $base_url;?>assets/images/team/ajay.jpeg" class="card-img-top" alt="Ajay">
                         <div class="card-body">
                             <h5 class="card-title text-center">Ajay</h5>
                         </div>

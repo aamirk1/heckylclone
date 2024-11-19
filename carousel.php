@@ -18,8 +18,12 @@
 </div> -->
 
 
-<div class="container-fluid">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="container-fluid"style="
+    height: 70%; margin-top: 5%;
+">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="
+    height: 100%;
+">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -30,35 +34,37 @@
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
+		<div class="carousel-inner" style="
+    height: 100%;
+">
 
 			<div class="item active">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/img1.jpg" alt="main"
+				<img src="<?php echo $base_url; ?>assets/images/carousel/1.jpg" alt="main"
 					style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/find.jpg" alt="find" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/find1.jpg" alt="find" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/fno.jpg" alt="fno" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/fno1.jpg" alt="fno" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/radar.jpg" alt="radar" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/radar1.jpg" alt="radar" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="<?php echo $base_url; ?>assets/images/carousel/tfa.jpg" alt="tfa" style="width:100%;">
+				<img src="<?php echo $base_url; ?>assets/images/carousel/tfa1.jpg" alt="tfa" style="width:100%;">
 				<div class="carousel-caption">
 				</div>
 			</div>

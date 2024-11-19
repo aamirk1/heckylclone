@@ -149,7 +149,7 @@ window.onload = function() {
      }
  
      // Change find every 3 seconds (3000 ms)
-     setInterval(changefind, 300000);
+     setInterval(changefind, 3000);
 
 
 
@@ -217,7 +217,7 @@ const mantraContent = { title: '"Heckyl aims to be a global leader in the space 
 
 // Set the initial content
 // const imageUrls = baseUrl + "assets/images/" + tfaContent.image;
-mantraDiv.innerHTML = `<h1 style="color: white;text-align: justify; letter-spacing: 2px;">${mantraContent.title}</h1>`;
+mantraDiv.innerHTML = `<h1 style="color: #0c0101;text-align: justify;letter-spacing: 2px;">${mantraContent.title}</h1>`;
 
 
 
